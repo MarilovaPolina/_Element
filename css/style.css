@@ -22,7 +22,7 @@ body {
 }
 
 .name{
-	font-family:EngraversGothic BT; 
+	font-family:Century;
 	color:white;
 	display:inline;
 	margin-left:36%;
@@ -41,14 +41,14 @@ margin-left:36%;
 }
 
 .menu{
-	font-family:EngraversGothic BT; 
+	font-family:Century; 
 	text-decoration:none;
 	color:white;
 	font-size: 150%;
 }
 
 .menu:hover{
-font-family:EngraversGothic BT; 
+font-family:Century; 
 	text-decoration:none;
 	color:white;
 	font-size: 150%;
@@ -69,7 +69,7 @@ font-family:EngraversGothic BT;
 
 .headingElpha{
 	font-size:250%;
-	font-family:EngraversGothic BT; 
+	font-family:Century; 
 	margin-left:3%;
 	margin-top:1.5%;
 }
@@ -97,7 +97,7 @@ font-family:EngraversGothic BT;
 
 .orderstyle{
 	font-size:160%;
-	font-family:EngraversGothic BT; 
+	font-family:Century; 
 	color:white;
 }
 
@@ -135,7 +135,7 @@ font-family:EngraversGothic BT;
 
 .sloganleft{
 	position: absolute;
-	font-family:EngraversGothic BT; 
+	font-family:Century; 
 	float:left;
 	font-size:250%;
 	line-height: 0.8;
@@ -143,7 +143,7 @@ font-family:EngraversGothic BT;
 }
 
 .sloganmiddle{
-	font-family:EngraversGothic BT; 
+	font-family:Century; 
 	font-weight:900;
 	font-size:350%;
 	line-height: 0.8;
@@ -152,7 +152,7 @@ font-family:EngraversGothic BT;
 }
 
 .sloganright{
-	font-family:EngraversGothic BT; 
+	font-family:Century; 
 	float:right;
 	font-size:250%;
 	line-height: 0.8;
@@ -201,7 +201,7 @@ font-family:EngraversGothic BT;
 }
 
 .headingthird{
-	font-family:EngraversGothic BT; 
+	font-family:Century; 
 	font-weight:900;
 	font-size:350%;
 	line-height: 0.8;
@@ -244,7 +244,7 @@ font-family:EngraversGothic BT;
 }
 
 .headingfourth{
-	font-family:EngraversGothic BT;
+	font-family:Century;
 	padding-top:2%;
 	font-weight:900;
 	font-size:350%;
@@ -259,7 +259,7 @@ font-family:EngraversGothic BT;
 }
 
 .col-sm-2{
-	font-family:EngraversGothic BT;
+	font-family:Century;
 	font-size:140%;
 }
 
@@ -303,7 +303,7 @@ font-family:EngraversGothic BT;
 }
 
 .footerlogo{
-	font-family:EngraversGothic BT; 
+	font-family:Century; 
 	color:white;
 	display:inline;
 	font-size: 170%;
