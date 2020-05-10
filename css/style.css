@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, p, ul, li{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+} 
+
+body {
+    font-family:Constantia; 
+}
+
+.card-header{
+	background-color:#1f1f1f;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+	position:fixed;
+	z-index: 1;
+}
+
+.name{
+	font-family:EngraversGothic BT; 
+	color:white;
+	display:inline;
+	margin-left:36%;
+	font-size: 170%;
+	 text-shadow: white 0 0 10px;
+}
+
+.icons{
+	display:inline;
+margin-left:36%;
+}
+
+.elementsofheader{
+	margin-left:15%;
+	width:70%;
+}
+
+.menu{
+	font-family:EngraversGothic BT; 
+	text-decoration:none;
+	color:white;
+	font-size: 150%;
+}
+
+.menu:hover{
+font-family:EngraversGothic BT; 
+	text-decoration:none;
+	color:white;
+	font-size: 150%;
+}
+
+.iconsmargin{
+	margin-left:1%;
+}
+
+.block{
+	position: absolute;
+	background-color: #a6c1a0;
+	margin-left:15%;
+	width:66%;
+	height:400px;
+	margin-top:6%;
+}
+
+.headingElpha{
+	font-size:250%;
+	font-family:EngraversGothic BT; 
+	margin-left:3%;
+	margin-top:1.5%;
+}
+
+.textBrand{
+	margin-left:5.5%;
+	width:60%;
+	font-size:140%;
+}
+
+.btn{
+	width:12%;
+	height:18%;
+	background-color: black;
+	margin-left:17%;
+	margin-top:18%;
+	border-radius: 0;
+	border: 0;
+	position:relative;
+}
+
+.btn:hover{
+	background-color: #233029;
+}
+
+.orderstyle{
+	font-size:160%;
+	font-family:EngraversGothic BT; 
+	color:white;
+}
+
+
+.frame{
+	position:absolute;
+	margin-top:-13.5%;
+	margin-left:65%;
+	width:20%;
+	height:46%;
+	z-index:auto;
+}
+
+.carousel-inner{
+	width:20%;
+	height:20%;
+	float:right;
+	margin-right:17%;
+	margin-top:-12%;
+}
+
+.carousel-indicators{
+	width:5%;
+	position:absolute;
+	margin-left:71%;
+	padding-bottom:9%;
+}
+
+.partsecond{
+	position: absolute;
+	margin-top:12%;
+	margin-left:15%;
+	width:70%;
+}
+
+.sloganleft{
+	position: absolute;
+	font-family:EngraversGothic BT; 
+	float:left;
+	font-size:250%;
+	line-height: 0.8;
+	display:inline;
+}
+
+.sloganmiddle{
+	font-family:EngraversGothic BT; 
+	font-weight:900;
+	font-size:350%;
+	line-height: 0.8;
+	margin-left:43%;
+	display:inline;
+}
+
+.sloganright{
+	font-family:EngraversGothic BT; 
+	float:right;
+	font-size:250%;
+	line-height: 0.8;
+	text-align:right;
+	display:inline;
+}
+
+.lineleft{ 
+    height: 3px;
+    width:24%; 
+    margin-top:3%;
+    background-color:#8ba286;   
+}
+
+.lineright{
+    height: 3px;
+    width:24%; 
+    float:right;
+    background-color:#8ba286;
+}
+
+.pictureleft{
+	margin-top:1%;
+	width:24%;
+}
+
+.pictureright{
+	margin-top:1%;
+	margin-left:76%;
+	margin-top:-42%;
+	width:24%;
+}
+
+.middletext{
+	margin-top:-41%;
+	width:47%;
+	margin-left:26%;
+	font-size:140%;
+	text-align:justify;
+}
+
+.partthird{
+	margin-top:47%;
+	margin-left:15%;
+	width:70%;
+}
+
+.headingthird{
+	font-family:EngraversGothic BT; 
+	font-weight:900;
+	font-size:350%;
+	line-height: 0.8;
+	text-align:center;
+}
+
+.linemiddle{
+	height: 3px;
+    width:50%; 
+    margin-top:1%;
+    background-color:#8ba286;
+    margin-left:25%;   
+}
+
+.card2{
+	margin-left:38%;
+	margin-top:2%;
+}
+
+.card1{
+	position:absolute;
+	margin-left:-90%;
+	margin-top:10%;
+}
+
+.card3{
+	position:absolute;
+	margin-left:300%;
+}
+
+.card-text{
+	color:black;
+}
+
+.partfourth{
+	background-color:#8ba286;
+	width:100%;
+	height:500px;
+	margin-top:3%;
+}
+
+.headingfourth{
+	font-family:EngraversGothic BT;
+	padding-top:2%;
+	font-weight:900;
+	font-size:350%;
+	line-height: 0.8;
+	text-align:center;
+}
+
+.form-group{
+	margin-top:2%;
+	margin-left:15%;
+	width:70%;
+}
+
+.col-sm-2{
+	font-family:EngraversGothic BT;
+	font-size:140%;
+}
+
+.form-control-plaintext{
+	background-color: white;
+	border-radius: 4px;
+}
+
+.button{
+	background-color:black;
+	width:10%;
+	height:9%;
+	margin-left:45%;
+}
+
+.resetbtn{
+	background-color:black;
+	width:10%;
+	height:11%;
+	margin-left:52%;
+}
+
+.surname{
+	margin-top:2%;
+	margin-left:15.5%;
+	margin-right:16%;
+}
+
+.btn-primary{
+	background-color:black;
+}
+
+.btn-secondary{
+	background-color:#8ba286;
+}
+
+.footerstyle{
+	background-color:black;
+	margin-left:0;
+	width:100%;
+}
+
+.footerlogo{
+	font-family:EngraversGothic BT; 
+	color:white;
+	display:inline;
+	font-size: 170%;
+	 text-shadow: white 0 0 10px;
+}
+
+.headings{
+	color:white;
+}
+
+/* media */
+@media (max-width:1670px){
+	.icons{
+	display:inline;
+	margin-left:26%;
+	}
+
+	.btn{
+	margin-top:90%;
+	}
+
+	.partsecond{
+		margin-top:12%;
+	}
+
+	.sloganleft, .sloganright, .lineright, .lineleft, .pictureleft, .pictureright{
+		display:none;
+	}
+
+	.middletext{
+	margin-top:1%;
+	width:100%;
+	margin-left:0%;
+	}
+}
+
+@media (max-width:1040px){
+	.icons{
+	display:inline;
+	margin-left:16%;
+	
+	}
+}
+
+@media (max-width:760px){
+	.icons{
+	display:inline;
+	margin-left:2%;
+	height:30%;
+	width:30%;
+	
+	}
+}
+
+@media (max-width:1750px){
+	.frame{
+		width:20%;
+		height:42%;
+		margin-top:-15.5%;
+	}
+
+	.btn{
+		margin-top:20%;
+	}
+
+	.carousel-inner{
+		margin-top:-14%;
+	}
+}
+
+@media (max-width:1630px){
+	.frame{
+		display:none;
+	}
+}
+
+@media (max-width:1430px){
+	.partsecond{
+		margin-top:15%;
+	}
+
+	.carousel-inner{
+		height:23%;
+		width:23%;
+	}
+}
+
+@media (max-width:1902px){
+	.partthird{
+		margin-top:50%;
+	}
+}
+
+@media (max-width:1800px){
+	.partthird{
+		margin-top:56%;
+	}
+}
+
+@media (max-width:1669px){
+	.partthird{
+		margin-top:36%;
+	}
+}
+
+@media (max-width:1570px){
+	.partthird{
+		margin-top:44%;
+	}
+}
+
+@media (max-width:1430px){
+	.partthird{
+		margin-top:48%;
+	}
+}
+
+@media (max-width:1390px){
+	.partthird{
+		margin-top:54%;
+	}
+}
+
+@media (max-width:1270px){
+	.partthird{
+		margin-top:60%;
+	}
+}
+
+@media (max-width:1176px){
+	.partthird{
+		margin-top:66%;
+	}
+
+	.partsecond{
+		margin-top:18%;
+	}
+}
+
+@media (max-width:1100px){
+	.partthird{
+		margin-top:75%;
+	}
+
+	.partsecond{
+		margin-top:22%;
+	}
+}
+
+@media (max-width:970px){
+	.partthird{
+		margin-top:82%;
+	}
+}

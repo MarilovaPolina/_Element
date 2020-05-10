@@ -4,9 +4,212 @@
 <head>
 	<meta charset="utf-8">
 	<title>_Element</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			// Плавный скролл по якорям
+			$('a[href^="#"]').click(function () { 
+     elementClick = $(this).attr("href");
+    destination = $(elementClick).offset().top;
+    {
+    $('html,body').animate( { scrollTop: destination }, 700);
+    } 
+    return false;
+		   });
+		});
+	</script>
 </head>
 
 <body>
-	
+<div class="content">
+	<div class="partfirst">
+  <div class="card-header">
+  	<div class="elementsofheader">
+  	<a class="menu" href="#"><img src="img/menu.png" width="3.5%">menu</a>
+    <div class="name" >_Element</div>
+    <div class="icons">
+        <a href="#" class="iconsmargin"><img src="img/glass1.png" width="2%"></a>
+        <a href="#" class="iconsmargin"><img src="img/heart1.png" width="2%"></a>
+        <a href="#" class="iconsmargin"><img src="img/cart3.png" width="2%"></a>
+    </div></div>
+  </div>
+  
+  <div class="block">
+  	<div class="headingElpha">Elpha Pharm</div>
+  	 <div class="textBrand"> is a brand from the beauty industry, and since we do beautiful things by nature, it's hard to find a better connection. See how we changed the appearance of cosmetics from the Basil Element series. We invite you for a short report - from our creation process!</div></div>
+  	 <a class="btn btn-primary orderstyle" href="#order_now">Order Now</a>
+  </div>
 
+  <img class="frame" src="img/frame2.png">
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/basil1.png" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/basil2.jpg" class="d-block w-100" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/basil3.jpg" class="d-block w-100">
+    </div>
+  </div>
+</div>
+
+
+	<div class="partsecond">
+		<div class="forlines">
+			<div class="sloganleft">Gentle care<br>for your hair</div>
+			<div class="sloganmiddle"> We are</div>
+			<div class="sloganright">Gentle<br>self-care</div>
+		</div>
+	<div class="lineleft"><hr></div> <div class="lineright"><hr></div>
+
+	<img class="pictureleft" src="img/photo1.png">
+	<img class="pictureright" src="img/photo2.png">
+		<div class="middletext">Element cosmetics are created on the basis of three unique ingredients: cress sprout extract - to protect the skin from environmental pollution, snail secretion filtrate - to delay the signs of aging and snake venom analogue - to prevent mimic wrinkles. This extract activates the skin’s cleansing process. It protects the skin from the ravages of stress, so that the cells avoid damage. It increases the skin’s resistance to the harmful effects of the environment. Cress is remarkable because it safeguards the skin against absorbing more impurities, as well as cleansing the ones already inside. It improves the state of your complexion, making you radiant and ensuring you age more slowly. Carbon can absorb 1,000 times more than its weight. It attracts organic compounds, heavy metals, and traces of detergents or styling products. Moreover, it absorbs sebum from the sebaceous glands, which is particularly desirable for people who tend to have oily skin. Discover other _Element series.</div>
+	</div>
+
+	<div class="partthird">
+		<div class="headingthird"> New</div>
+		<div class="linemiddle"><hr></div>
+
+		<div class="card card2" style="width: 20rem;">
+		  <a href="#"><img src="https://3.bp.blogspot.com/-Pob0rDKufW0/XqJV6jJ4ByI/AAAAAAAGvDY/WzQiUhr4enM7AEDlnY6eykjMQVf1eWbSQCLcBGAsYHQ/s1600/Basil%2B%25284%2529.png" class="card-img-top" alt="...">
+		  <div class="card-body">
+		    <p class="card-text">This <b>conditioner</b> works best when it stays in your hair for around 10 minutes, but 5 minutes will do as well. This <b>shampoo</b> works well on normal and oily scalps. It is best used once or twice a week, along with conditioner.</p></a>
+		  </div>
+
+		  <div class="card card1" style="width: 14rem;">
+		  <a href="#"><img src="https://4.bp.blogspot.com/-J6vTaLA8DXw/XqJV7JRkn_I/AAAAAAAGvDg/yhXcuLyFaEkaNnJDxoM2pnPF5D4kXhaxwCLcBGAsYHQ/s1600/Basil%2B%25286%2529.png" class="card-img-top" alt="...">
+		  <div class="card-body">
+		    <p class="card-text">This <b>hand cream</b> contains natural oils, vitamin E, adenosinea and chamomile extract that soothes the skin.</p>
+		  </div>
+		
+		<div class="card card3" style="width: 14rem;">
+		  <a href="#"><img src="img/basil2.jpg" class="card-img-top" alt="...">
+		  <div class="card-body">
+		    <p class="card-text">This <b>spray</b> requires no rinse. It can be used daily before leaving the house, or during the day, whether your hair is wet or dry.</p>
+		  </div>
+	</div></a></div></a></div>
+</div>
+
+	<div id="order_now" class="partfourth">
+		<div class="headingfourth">Order Now</div>
+			<form class="surname">
+			  <div class="row">
+			    <div class="col">
+			      <input type="text" class="form-control" placeholder="Имя">
+			    </div>
+			    <div class="col">
+			      <input type="text" class="form-control" placeholder="Фамилия">
+			    </div>
+			  </div>
+			</form>
+
+				<form>
+		  <div class="form-group row">
+		     <label for="exampleInputEmail1" class="col-sm-2 col-form-label">Email</label>
+		    <div class="col-sm-10">
+		      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		    </div>
+		  </div>
+		  <div class="form-group row">
+		    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+		    <div class="col-sm-10">
+		      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+		    </div>
+		  </div>
+		</form>
+		<!-- Button trigger modal -->
+		<button type="button" class="button orderstyle" data-toggle="modal" data-target="#exampleModalLong">Submit</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">Submitting</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      	<p>A letter from _Element will be sent to your mail after clicking "Send an e-mail".</p><br>
+		        <p>By submitting this information, you consent to the sending of newsletters to the specified mail from _Element company. You can also cancel the action by clicking "Close".</p><br>
+		        <p>Thank you for being with us and supporting our company.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn-primary">Send an e-mail</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+<div class="footerstyle">
+	<footer class="container py-5">
+		<div class="row">
+		<div class="col-12 col-md">
+		<p class="footerlogo">_Element</p>
+		<small class="d-block mb-3 text-muted">© 2019-2020</small>
+		</div>
+		<div class="col-6 col-md">
+		<h5 class="headings">Features</h5>
+		<ul class="list-unstyled text-small">
+		<li><a class="text-muted" href="#">Cool stuff</a></li>
+		<li><a class="text-muted" href="#">Random feature</a></li>
+		<li><a class="text-muted" href="#">Team feature</a></li>
+		<li><a class="text-muted" href="#">Stuff for developers</a></li>
+		<li><a class="text-muted" href="#">Another one</a></li>
+		<li><a class="text-muted" href="#">Last time</a></li>
+		</ul>
+		</div>
+		<div class="col-6 col-md">
+		<h5 class="headings">Resources</h5>
+		<ul class="list-unstyled text-small">
+		<li><a class="text-muted" href="#">Resource</a></li>
+		<li><a class="text-muted" href="#">Resource name</a></li>
+		<li><a class="text-muted" href="#">Another resource</a></li>
+		<li><a class="text-muted" href="#">Final resource</a></li>
+		</ul>
+		</div>
+		<div class="col-6 col-md">
+		<h5 class="headings">Resources</h5>
+		<ul class="list-unstyled text-small">
+		<li><a class="text-muted" href="#">Business</a></li>
+		<li><a class="text-muted" href="#">Education</a></li>
+		<li><a class="text-muted" href="#">Government</a></li>
+		</ul>
+		</div>
+		<div class="col-6 col-md">
+		<h5 class="headings">About</h5>
+		<ul class="list-unstyled text-small">
+		<li><a class="text-muted" href="#">Team</a></li>
+		<li><a class="text-muted" href="#">Locations</a></li>
+		<li><a class="text-muted" href="#">Privacy</a></li>
+		<li><a class="text-muted" href="#">Terms</a></li>
+		</ul>
+		</div>
+		</div>
+	</footer>
+</div>
+
+</body>
 </html>
+
+
+   
